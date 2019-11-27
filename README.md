@@ -19,6 +19,7 @@ NB: This is only required if you want to continue development of this package, e
 Import the conda environment for mobcal using the provided environment file. This is especially required when you want to use the pdb2mfj utility provided in the repo:
 
 `conda env create -f mobcal.yml`
+
 Next activate the environment using 
 
 `conda activate mobcal`
@@ -33,7 +34,7 @@ make
 # Docker Image
 ## Building the docker image
 
-docker build -t mobcalshm .
+`docker build -t mobcalshm .`
 
 ## Running the docker image
 
