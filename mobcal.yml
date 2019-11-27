@@ -1,0 +1,12 @@
+name: mobcal
+channels:
+  - conda-forge
+  - omnia
+  - defaults
+dependencies:
+  - openmm=7.4.0
+  - pandas=0.25.3
+  - parmed=3.2.0
+  - pdbfixer=1.6
+  - pip=19.3.1
+  - python=3.7.3
