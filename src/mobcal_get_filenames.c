@@ -52,7 +52,7 @@ int mobcal_get_filenames(int argc, char **argv,
       nr = sscanf(input_buffer,"%s",param_file);
       if (nr < 1) {
 	success = 0;
-	fprintf(stderr,"mobcal_get_filenames: Error scanning paremeter file name\n");
+	fprintf(stderr,"mobcal_get_filenames: Error scanning parameter file name\n");
 	fflush(stderr);
       }
     }
@@ -68,7 +68,7 @@ int mobcal_get_filenames(int argc, char **argv,
       nr = sscanf(input_buffer,"%s",at_param_file);
       if (nr < 1) {
 	success = 0;
-	fprintf(stderr,"mobcal_get_filenames: Error scanning atomtype paremeter file name\n");
+	fprintf(stderr,"mobcal_get_filenames: Error scanning atomtype parameter file name\n");
 	fflush(stderr);
       }
     }

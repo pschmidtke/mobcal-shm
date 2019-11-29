@@ -96,7 +96,7 @@ int mobcal_read_parameters(int argc, char **argv,
   if ((argc != 2) && (argc !=5))  {
     fprintf(stdout,
 	    " mobcal usage is\n"
-    " mobcal paremeters.in atomtype_parameters.in input.mfj output_file\n"
+    " mobcal parameters.in atomtype_parameters.in input.mfj output_file\n"
 	    " or\n"
 	    " mobcal infile \n"
 	    " where infile is the name of a file that has those four filenames on succesive lines.\n"
@@ -154,7 +154,7 @@ int mobcal_read_parameters(int argc, char **argv,
     temp = 301.0;
     /*
       Allow user to keyword specify these fields at the end of the 
-      paremeter input file.
+      parameter input file.
     */
     igs = 0;
     im2 = 0;
@@ -268,7 +268,7 @@ int mobcal_read_parameters(int argc, char **argv,
 	}
       } else {
 	fprintf(stderr,
-		"mobcal_read_paremeters ignored the followint line\n%s\n",
+		"mobcal_read_parameters ignored the followint line\n%s\n",
 		input_buffer);
 	fflush(stderr);
       }
